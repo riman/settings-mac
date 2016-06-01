@@ -1,4 +1,5 @@
 #!/bin/sh
+# Need to add versioning
 read -p "This will replace settings in your profile directory! Are you sure? " -n 1 -r
 echo    # 
 if [[ ! $REPLY =~ ^[Yy]$ ]]
